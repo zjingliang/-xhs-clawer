@@ -1,0 +1,30 @@
+{
+  "search": {
+    "url": "https://so.xiaohongshu.com/api/sns/web/v2/search/notes",
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "Referer": "https://www.xiaohongshu.com/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "x-s": "<capture-via-gui>",
+      "x-s-common": "<capture-via-gui>",
+      "x-t": "<capture-via-gui>"
+    },
+    "search_id": "<capture-via-gui>"
+  },
+  "note_detail": {
+    "url": "https://edith.xiaohongshu.com/api/sns/web/v1/feed",
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "Referer": "https://www.xiaohongshu.com/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "x-s": "<capture-via-gui>",
+      "x-s-common": "<capture-via-gui>",
+      "x-t": "<capture-via-gui>"
+    }
+  },
+  "cookies": {
+    "web_session": "<capture-via-gui>",
+    "a1": "<capture-via-gui>"
+  },
+  "save_time": "2026-01-01 00:00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "auth_file": "xhs_auth.json",
+  "capture": {
+    "max_wait_seconds": 300,
+    "site_url": "https://www.xiaohongshu.com",
+    "log_interval_seconds": 10
+  },
+  "crawler": {
+    "default_page_count": 3,
+    "default_item_interval": 3.0,
+    "page_size": 20,
+    "page_delay_seconds": 3,
+    "max_pages": 10,
+    "output_suffix": "_小红书数据.csv"
+  },
+  "search_api_fallback": "https://so.xiaohongshu.com/api/sns/web/v2/search/notes",
+  "feed_api_fallback": "https://edith.xiaohongshu.com/api/sns/web/v1/feed"
+}
